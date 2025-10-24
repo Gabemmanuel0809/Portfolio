@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+   </head>  
+   <body>
+    <header>
+        <h2>My Portfolio</h2>
+    </header>
+    <main>
+        <article>
+           <section id = "AboutMeSec">
+               <img src = "me.jpg" alt = "my image" style = "border-radius:50%; height: 110px; width: 110px; border: 2px solid black">
+               <h3>About me</h3>
+               <p>Hi there! Im Gabriel Emmanuel, A beginner web developer who loves clean and minimalistic designs. Im currently a second year IT student, eager to grow skills and gain real-world experience</p>
+           </section>
+           <br><br>
+           <section id = "PersonalInfoSec">
+               <h3>Personal Information</h3>
+               <p>Name: Gabriel Emmanuel P. Domondon</p>
+               <p>Age: 20 years old</p>
+               <p>Address: Calsib, Aguilar, Pangasinan</p>
+               <br>
+               <h3>Find me in</h3>
+               <a href = "#">Facebook</a>
+               <br>
+           </section>
+           <br><br>
+           <section id="SkillsSec">
+             <h3>Skills</h3>
+             <div class="skill">
+                <label for="html">HTML</label>
+                <progress id="html" value="50" max="100"></progress>
+             </div>
+
+             <div class="skill">
+                <label for="css">CSS</label>
+                <progress id="css" value="35" max="100"></progress>
+             </div>
+
+             <div class="skill">
+                 <label for="js">JavaScript</label>
+                 <progress id="js" value="70" max="100"></progress>
+              </div>
+           </section>
+        </article>
+    </main>
+    <aside>
+          <h2>I would love to hear your insights</h2>
+            <form action = "/submit">
+               <label for = "comment"></label>
+               <input type = "text" id = "comment" name = "comment" placeholder = "Type your comment please" required>
+               <button id = "btn"><i class="fa-solid fa-paper-plane"></i></button>
+           </form>
+    </aside>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+     <script src = "script.js"></script>
+   </body>
+</html>
