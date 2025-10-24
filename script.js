@@ -8,8 +8,9 @@ button.addEventListener("click", function(event) {
         alert("Please add comment first before submitting");
     } else {
         list.push(cmt.value);
-        window.location.href = "message.html";
+        window.location.href = "Message.html";
         localStorage.setItem("comments", JSON.stringify(list));
         cmt.value = "";
     }
+
 });
