@@ -33,22 +33,23 @@ html, body {
         height:auto;
         width:100%;
         padding:5px;
-        gap:20px;
+        gap:5px;
     }
 
     aside {
-        height:300px;
-        width:100%;
+        height:auto;
+        width:auto;
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
         background-color:#C5E1A5;
         margin-bottom:0px;
+        padding: 10px;
     }
 
     form, label {
-        width:50%;
+        width:60%;
     }
 
     input {
@@ -63,8 +64,8 @@ html, body {
 
     #AboutMeSec {
         margin-top:30px;
-        height:200px;
-        width:96%;
+        height:auto;
+        width:auto;
         display:flex;
         flex-direction:column;
         justify-content:center;
@@ -75,8 +76,8 @@ html, body {
 
     #PersonalInfoSec {
         margin-top:30px;
-        height:200px;
-        width:100%;
+        height:auto;
+        width:auto;
         display:flex;
         flex-direction:column;
         justify-content:center;
@@ -86,7 +87,8 @@ html, body {
     }
 
     #SkillsSec {
-      width: 100%;
+      height:auto;
+      width:auto;
       padding: 10px;
       display: flex;
       flex-direction: column;
@@ -191,7 +193,7 @@ html, body {
 
          #AboutMeSec {
            margin-top:30px;
-           height:300px;
+           height:auto;
            width:auto;
            display:flex;
            flex-direction:column;
@@ -203,8 +205,8 @@ html, body {
 
         #PersonalInfoSec {
            margin-top:30px;
-           height:300px;
-           width:100%;
+           height:auto;
+           width:auto;
            display:flex;
            flex-direction:column;
            justify-content:center;
@@ -256,7 +258,6 @@ html, body {
        }
 
 }
-
 @media(min-width:1024px) and (max-width:1439px) {
         html, body {
            height:100%;
@@ -388,5 +389,4 @@ html, body {
          justify-content:center;
          background-color:#FFD54F;
        }
-
 }
